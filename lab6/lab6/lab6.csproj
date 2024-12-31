@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9836525E-D08F-4786-A750-6ED92767214A}</ProjectGuid>
+    <ProjectGuid>{82EACFC7-D74A-42DA-84B9-489256FAD0DB}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>lab6</RootNamespace>
     <AssemblyName>lab6</AssemblyName>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>lab6.Q4e.dictionary</StartupObject>
+    <StartupObject>lab6.dictionary</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,17 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="methodoveriding.cs" />
-    <Compile Include="methodoverloading.cs" />
+    <Compile Include="dictionary.cs" />
+    <Compile Include="Distance.cs" />
+    <Compile Include="linkedlist.cs" />
+    <Compile Include="list.cs" />
+    <Compile Include="Practice.cs" />
+    <Compile Include="queue.cs" />
+    <Compile Include="Shape.cs" />
+    <Compile Include="methodOverloading.cs" />
+    <Compile Include="methodOverriding.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Q3a.cs" />
-    <Compile Include="Q3b.cs" />
-    <Compile Include="Q3c.cs" />
-    <Compile Include="Q4a.cs" />
-    <Compile Include="Q4b.cs" />
-    <Compile Include="Q4c.cs" />
-    <Compile Include="Q4d.cs" />
-    <Compile Include="Q4e.cs" />
+    <Compile Include="Complex.cs" />
+    <Compile Include="stack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
